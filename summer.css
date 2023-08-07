@@ -276,6 +276,7 @@ CSS.mb-6 {
 } */
 html {
   scroll-behavior: smooth;
+  background-color: white;
 }
 
 /* This pen */

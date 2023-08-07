@@ -16,23 +16,24 @@
           <h1 class="display-3 fw-bold mb-3">Matthew's Summer</h1>
           <p class="lead mb-5">June-July of 2023 consisted of playing Fallout 4, going to Alaska, and going to the Atlanta Aquarium.</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-light btn-lg px-4 gap-3" href="#scroll">Explore</button>
-            <button type="button" class="btn btn-outline-light btn-lg px-4">Change Theme</button>
+            <button type="button" class="btn btn-light btn-lg px-4 gap-3" onclick="scrollToElement()">Explore</button>
+            <button type="button" class="btn btn-outline-light btn-lg px-4" onclick="changeColor()">Change Theme</button>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="light">
+
+  <section id="theme-change">
     <div class="container py-2">
-      <div class="h1 text-center text-dark" id="pageHeaderTitle" >My Summer :)</div>
+      <div class="h1 text-center text-dark" id="pageHeaderTitle">My Summer :)</div>
   
       <article class="postcard light blue">
         <a class="postcard__img_link" href="#">
           <img class="postcard__img" src="https://www.georgiaaquarium.org/wp-content/uploads/2019/05/GAQ-Digital-Marketing-201-1-1024x683.jpg" alt="Image Title" />
         </a>
-        <div class="postcard__text t-dark">
+        <div class="postcard__text t-dark" id="scrollToMe">
           <h1 class="postcard__title blue"><a href="#">Atlanta Aquarium</a></h1>
           <div class="postcard__subtitle small">
             <time datetime="2020-05-25 12:00:00">
@@ -53,7 +54,7 @@
         <a class="postcard__img_link" href="#">
           <img class="postcard__img" src="https://cdn.britannica.com/95/77395-050-3BFC69CB/Alaska-Range-Wonder-Lake-Denali-National-Park.jpg" alt="Image Title" />	
         </a>
-        <div class="postcard__text t-dark">
+        <div class="postcard__text t-dark" >
           <h1 class="postcard__title red"><a href="#">Alaskan Cruise</a></h1>
           <div class="postcard__subtitle small" >
             <time datetime="2020-05-25 12:00:00">
@@ -92,6 +93,6 @@
       
     </div>
   </section>
-
+  <script src="summer.js"></script>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script></body>
 </html>
