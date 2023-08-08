@@ -345,8 +345,7 @@ a, a:hover {
 .postcard .postcard__img {
   max-height: 180px;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: relative;
 }
 .postcard .postcard__img_link {
@@ -387,9 +386,7 @@ a, a:hover {
   padding: 2.5px 10px;
   margin: 0 5px 5px 0;
   cursor: default;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  user-select: none;
   transition: background-color 0.3s;
 }
 .postcard .postcard__tagbox .tag__item:hover {
@@ -583,45 +580,4 @@ a, a:hover {
   .yellow:nth-child(2n)::before {
     background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50%);
   }
-}
-
-/*  
-*/
-
-
-.blog-post {
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ddd;
-  background-color: #f9f9f9;
-
-  .blog-title {
-    margin-top: 5px;
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-
-  .blog-date {
-    color: #777;
-    margin-bottom: 10px;
-  }
-
-  .blog-text {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-
-  img.img-fluid {
-    max-width: 100%;
-    height: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-}
-
-.dark-gray{
-  background-color: #424242;
-}
-.black-text{
-  color:#18151f;
-}
+}/*# sourceMappingURL=summer.css.map */
